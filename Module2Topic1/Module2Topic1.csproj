@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Module2Topic1</RootNamespace>
     <AssemblyName>Module2Topic1</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,10 +51,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -77,30 +74,35 @@
   <ItemGroup>
     <Compile Include="Exercise0.aspx.cs">
       <DependentUpon>Exercise0.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Exercise0.aspx.designer.cs">
       <DependentUpon>Exercise0.aspx</DependentUpon>
     </Compile>
     <Compile Include="Exercise1.aspx.cs">
       <DependentUpon>Exercise1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Exercise1.aspx.designer.cs">
       <DependentUpon>Exercise1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Exercise2.aspx.cs">
       <DependentUpon>Exercise2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Exercise2.aspx.designer.cs">
       <DependentUpon>Exercise2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Exercise3.aspx.cs">
       <DependentUpon>Exercise3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Exercise3.aspx.designer.cs">
       <DependentUpon>Exercise3.aspx</DependentUpon>
     </Compile>
     <Compile Include="Exercise4.aspx.cs">
       <DependentUpon>Exercise4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Exercise4.aspx.designer.cs">
       <DependentUpon>Exercise4.aspx</DependentUpon>
