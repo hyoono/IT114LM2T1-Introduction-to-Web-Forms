@@ -22,12 +22,9 @@
 
         <%-- TODO 2.3 Create three buttons with texts. "Prev", "Play", and "Next" --%>
         <%-- Hint: https://www.tutorialspoint.com/asp.net/asp.net_basic_controls.htm#:~:text=Button%20Controls --%>
-        <asp:Button ID="Prev" runat="server" Text="Prev">
-        </asp:Button>
-        <asp:Button ID="Play" runat="server" onclick="Play_Click" Text="Play">
-        </asp:Button>
-        <asp:Button ID="Next" runat="server" Text="Next">
-        </asp:Button>
+        <asp:Button ID="Prev" runat="server" Text="Prev" />
+        <asp:Button ID="Play" runat="server" OnClick="Play_Click" Text="Play" />
+        <asp:Button ID="Next" runat="server" Text="Next" />
 
         <%-- TODO 2.4 Create a span. Once the play button is pressed, the span should display "Now playing <favorite song>" --%>
         <%-- Hint: https://www.tutorialspoint.com/asp.net/asp.net_first_example.htm#:~:text=convertoupper --%>
