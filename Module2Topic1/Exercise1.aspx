@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" CodeBehind="~/Exercise1.aspx.cs" Inherits="Module1Exercise1.Exercise1" %>
+<%@ Page Language="C#" CodeBehind="~/Exercise1.aspx.cs" Inherits="Module1Exercise1.Exercise1" %>
 
 <%-- Exercise 1: Exploring Basic Controls of ASP.NET WebForms--%>
 <%-- Useful References: https://www.tutorialspoint.com/asp.net/index.htm --%>
@@ -44,6 +44,10 @@
         <br />
         <span id="time" runat="server"><%= DateTime.Now.ToString("hh:mm:ss tt") %></span>
 
+        <%-- Hint: https://www.tutorialspoint.com/asp.net/asp.net_event_handling.htm#:~:text=onclick=%22btnclick_Click%22 --%>
+
+        <%-- TODO 2.5 Display the current time using the template syntax <%= %> --%>
+        <%-- Hint: https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/aspnet/development/inline-expressions#:~:text=displays%20the%20current%20time --%>
     </form>
 </body>
 </html>
