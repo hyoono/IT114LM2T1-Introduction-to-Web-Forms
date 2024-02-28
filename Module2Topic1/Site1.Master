@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Module2Topic1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Master Page</title>
+    <link href ="masterPage.css" rel ="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav id="navi">
+        <ul>
+            <li><a href="home.aspx">Home</a></li>
+            <li><a href="Exercise1.aspx">Malayan Music Player</a></li>
+            <li><a href="Exercise2.aspx">Registration</a></li>
+            <li><a href="Exercise3.aspx">Grade Calculator</a></li>
+            <li><a href="Exercise4.aspx">Forms</a></li>
+        </ul>
+    </nav>
+    <p id="homeContent">
+        <asp:ContentPlaceHolder ID="homeContentPlaceholder" runat="server">
+        </asp:ContentPlaceHolder>
+    </p>
+    <footer id="copyrightFooter">
+        Copyright © Joshua Fil Evasco 2024
+    </footer>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿body{
+    background-color:azure
+}
+#navi {
+    background-color: palevioletred;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    color: beige;
+    font-size: 30px;
+    column-width: 5%;
+}
+
+li {
+    display: inline;
+    padding-left: 2px;
+    column-width: 20px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+li a:hover {
+    background-color: #F3FFBD;
+    color: #FF1654;
+    padding: 1%;
+}
+
+#copyrightFooter {
+    background-color: #C7EFCF;
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 20px;
+}

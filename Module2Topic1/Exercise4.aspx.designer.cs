@@ -24,6 +24,15 @@ namespace Module1Exercise1
         protected global::System.Web.UI.WebControls.TextBox fullName;
 
         /// <summary>
+        /// requiredName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requiredName;
+
+        /// <summary>
         /// age control.
         /// </summary>
         /// <remarks>
@@ -31,6 +40,15 @@ namespace Module1Exercise1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox age;
+
+        /// <summary>
+        /// ageRange control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator ageRange;
 
         /// <summary>
         /// email control.
@@ -42,6 +60,15 @@ namespace Module1Exercise1
         protected global::System.Web.UI.WebControls.TextBox email;
 
         /// <summary>
+        /// emailRegex control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator emailRegex;
+
+        /// <summary>
         /// confirmEmail control.
         /// </summary>
         /// <remarks>
@@ -49,6 +76,15 @@ namespace Module1Exercise1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox confirmEmail;
+
+        /// <summary>
+        /// emailCompare control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator emailCompare;
 
         /// <summary>
         /// result control.

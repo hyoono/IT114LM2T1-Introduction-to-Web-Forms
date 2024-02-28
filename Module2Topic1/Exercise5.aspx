@@ -7,6 +7,8 @@
 <%-- The footer should contain the copyright information of the page. I.e. it should display "Copyright <your name> 2024" --%>
 <%-- Hint: https://www.c-sharpcorner.com/article/how-to-create-master-page-in-asp-net/ --%>
 
+
+
 <%-- TODO 5.2 Make this page use the master page that you have created --%>
 <%-- In the main content of this page, write your reflection about the following: --%>
 <%-- * How would you compare plain HTML to ASP.NET WebForms --%>

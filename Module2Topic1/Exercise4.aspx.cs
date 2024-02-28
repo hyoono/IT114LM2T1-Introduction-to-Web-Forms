@@ -13,5 +13,10 @@ namespace Module1Exercise1
         {
 
         }
+
+        protected void Submit_Click(object sender, EventArgs e)
+        {
+            result.Text = $"Full Name: {fullName.Text}\nAge: {age.Text}\nEmail: {email.Text}\nConfirmed Email: {confirmEmail.Text}";
+        }
     }
 }
